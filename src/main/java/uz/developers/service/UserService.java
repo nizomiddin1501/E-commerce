@@ -2,6 +2,7 @@ package uz.developers.service;
 
 import uz.developers.model.User;
 
+import java.math.BigDecimal;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
@@ -41,6 +42,38 @@ public class UserService {
             System.out.print(e.getMessage());
         }
         return user;
+    }
+
+
+    public Double getUserBalance(int userId) {
+        Double balance = Double.valueOf(0);
+        try {
+            query = "select balance from users where id = ?";
+            preparedStatement = this.connection.prepareStatement(query);
+            preparedStatement.setInt(1, userId);
+            resultSet = preparedStatement.executeQuery();
+            if (resultSet.next()) {
+                balance = resultSet.getDouble("balance");
+            }
+        } catch (Exception e) {
+            e.printStackTrace();
+            System.out.print(e.getMessage());
+        }
+        return balance;
+    }
+
+
+    public void updateUserBalance(int userId, BigDecimal newBalance) {
+        try {
+            query = "update users set balance = ? where id = ?";
+            preparedStatement = this.connection.prepareStatement(query);
+            preparedStatement.setBigDecimal(1, newBalance);
+            preparedStatement.setInt(2, userId);
+            preparedStatement.executeUpdate();
+        } catch (Exception e) {
+            e.printStackTrace();
+            System.out.print(e.getMessage());
+        }
     }
 
 

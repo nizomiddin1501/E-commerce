@@ -75,6 +75,37 @@ public class ProductService {
         return products;
     }
 
+
+    public Product getProductById(int id) {
+         Product product =null;
+        try {
+            query = "select * from product where id = ?";
+            preparedStatement = this.connection.prepareStatement(query);
+            preparedStatement.setInt(1,id);
+            resultSet = preparedStatement.executeQuery();
+            while (resultSet.next()) {
+                String name = resultSet.getString("name");
+                String image = resultSet.getString("image");
+                Double price = resultSet.getDouble("price");
+                String category = resultSet.getString("category");
+                product = new Product(id,name,image,price,category);
+            }
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        return product;
+    }
+
+
+
+
+
+
+
+
+
+
+
 //    public Double getTotalCartPrice(ArrayList<Cart> cartList) {
 //        double sum = 0;
 //        try {
@@ -97,4 +128,8 @@ public class ProductService {
 //        }
 //        return sum;
 //    }
+
+
+
+
 }

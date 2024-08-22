@@ -9,6 +9,27 @@ public class User implements Serializable {
     private String email;
     private String password;
 
+    private String photo;
+
+    private Double account;
+
+
+    public User(Integer id, String name, String email, String password, String photo, Double account) {
+        this.id = id;
+        this.name = name;
+        this.email = email;
+        this.password = password;
+        this.photo = photo;
+        this.account = account;
+    }
+
+    public User(String name, String email, String password, String photo, Double account) {
+        this.name = name;
+        this.email = email;
+        this.password = password;
+        this.photo = photo;
+        this.account = account;
+    }
 
     public User(Integer id, String name, String email, String password) {
         this.id = id;
@@ -27,7 +48,23 @@ public class User implements Serializable {
     }
 
 
-    public Integer getId() {
+    public String getPhoto() {
+        return photo;
+    }
+
+    public void setPhoto(String photo) {
+        this.photo = photo;
+    }
+
+    public Double getAccount() {
+        return account;
+    }
+
+    public void setAccount(Double account) {
+        this.account = account;
+    }
+
+    public int getId() {
         return id;
     }
 
