@@ -11,12 +11,8 @@
   <component name="ChangeListManager">
     <list default="true" id="75146136-f143-4675-a077-691301dffc91" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/images/anor.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/images/behi.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/images/img.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/images/nok.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/images/olma.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/images/uzum.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/builtImages/ecom1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -200,7 +196,7 @@
       <workItem from="1726258367672" duration="640000" />
       <workItem from="1726286802049" duration="365000" />
       <workItem from="1726293013515" duration="15000" />
-      <workItem from="1726321631544" duration="1304000" />
+      <workItem from="1726321631544" duration="2420000" />
     </task>
     <servers />
   </component>
