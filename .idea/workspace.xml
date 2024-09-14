@@ -10,7 +10,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="75146136-f143-4675-a077-691301dffc91" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/builtImages/ecom1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/builtImages/ecom2.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/builtImages/img.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/builtImages/img_1.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,11 +56,16 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/AllTask/IdeaProjects/A1_ReTakeJava/spring_modul_2/serius_projects/E-commerce/src/main/webapp/images/users&quot;
+    &quot;last_opened_file_path&quot;: &quot;D:/AllTask/IdeaProjects/A1_ReTakeJava/spring_modul_2/serius_projects/E-commerce/src/main/webapp/builtImages&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;
   }
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\AllTask\IdeaProjects\A1_ReTakeJava\spring_modul_2\serius_projects\E-commerce\src\main\webapp\builtImages" />
       <recent name="D:\AllTask\IdeaProjects\A1_ReTakeJava\spring_modul_2\serius_projects\E-commerce\src\main\webapp\images\users" />
       <recent name="D:\AllTask\IdeaProjects\A1_ReTakeJava\spring_modul_2\serius_projects\E-commerce\src\main\webapp" />
       <recent name="D:\AllTask\IdeaProjects\A1_ReTakeJava\spring_modul_2\serius_projects\E-commerce\src\main\java" />
@@ -185,6 +194,10 @@
       <workItem from="1724311145470" duration="3261000" />
       <workItem from="1724314438107" duration="9512000" />
       <workItem from="1725457638921" duration="191000" />
+      <workItem from="1725587673206" duration="317000" />
+      <workItem from="1726258367672" duration="640000" />
+      <workItem from="1726286802049" duration="365000" />
+      <workItem from="1726293013515" duration="15000" />
     </task>
     <servers />
   </component>
